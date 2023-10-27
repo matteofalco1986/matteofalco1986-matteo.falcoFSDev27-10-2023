@@ -1,0 +1,166 @@
+
+/* MAIN SETTINGS */
+
+* {
+    text-align: center;
+}
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+
+h1, h2 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: black;
+}
+
+#logo {
+    padding: 2em;
+    width: 40%;
+}
+
+#header-content {
+    background-image: url("/images/banner.jpg");
+    background-size: cover;
+    background-position-x: center;
+    padding: 3em 2em;
+}
+header h1{
+    font-size: xx-large;
+    padding: 0.5em 2em 0.5em;
+    word-wrap: break-word;
+    line-height: 1;
+}
+header p {
+    padding: 0.5em 2.3em 0.5em;
+    margin-bottom: 1.3em;
+}
+
+header a {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color:white;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+}
+
+/* MAIN */
+
+#first-block, #second-block {
+    padding: 2em;
+}
+.main-paragraph {
+    padding: 0.5em;
+}
+.main-paragraph h2, .schede h2 {
+    padding: 0px 1em;
+}
+.main-paragraph p, .schede p {
+    padding: 0.3em 2em;
+}
+#first-block img {
+    border-radius: 100%;
+    width: 60%;  
+}
+/* TESTIMONIANZE */
+
+.testimonianze {
+    background-color: #e22d0e;
+    color: white;
+    padding: 1em 1em;
+}
+
+.testimonianze h2 {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 600;
+    padding: 1em 0em;
+}
+
+.testimonianze q {
+    display: block;
+    padding: 0em 0em 1em;
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: italic;
+}
+.testimonianze address {
+    padding: 1em 0em;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.testimonianze p:last-child{
+    font-size: 0.7em;
+}
+
+/* SCHEDE */ 
+
+.schede h2{
+    padding: 1em 0em;
+}
+.schede p {
+    padding-bottom: 2em;
+}
+.schede img {
+    width: 100%;
+}
+.schede {
+    border-color: #dee1e3;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    width: 85vw;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+footer h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 1em 0em 0.5em 0em;
+}
+footer address {
+    padding-bottom: 1em;
+}
+footer a {
+    color: #c8e7f0;
+    font-weight: 100;
+}
+
+.line hr {
+    width: 45%;
+
+}
+footer p {
+    padding: 1em 0em 3em;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+#freccia {
+    transform: rotate(-45deg);
+}
